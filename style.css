@@ -545,7 +545,7 @@ footer{
     display: block;
     width: 100%;
     position:absolute;
-    bottom: -380%;
+    bottom: -500%;
     margin-top: 5%;
     background: #111;
     padding: 1% 0%;
@@ -561,10 +561,22 @@ footer span a:hover{
 }
 
 
+@media (max-width: 1230px){
+    footer{
+        bottom: -690%;
+
+    }
+
+}
+
+
 @media (max-width: 1200px){
     footer{
         bottom: -540%;
 
+    }
+    footer{
+        bottom: -700%;
     }
 
 }
@@ -614,6 +626,10 @@ footer span a:hover{
        position: relative;
        margin-top: 1%;;
     }
+    footer{
+        bottom: -700%;
+    }
+
 }
 
 
@@ -650,6 +666,9 @@ footer span a:hover{
     }
     .right{
         width: 100%;
+    }
+    footer{
+        bottom: -690%;
     }
    
 }
@@ -694,14 +713,14 @@ footer span a:hover{
         margin-top: 1.5%;;
      }
     footer{
-        bottom: -550%;
+        bottom: -700%;
         width: 110%; 
     }
 }
 
 @media (max-width:628px){
     footer{
-        bottom: -730%;
+        bottom: -930%;
 
     }
 
@@ -794,7 +813,7 @@ footer span a:hover{
         width: 179%;
     }
     footer{
-        bottom: -580%;
+        bottom: -780%;
         width: 149%; 
 
     }
@@ -816,12 +835,12 @@ footer span a:hover{
 
 }
 
-@media (max-width:367px){
+@media (max-width:368px){
     .info{
         width: 179%;
     }
     footer{
-        bottom: -600%;
+        bottom: -770%;
         width: 179%;
 
     }
@@ -830,7 +849,7 @@ footer span a:hover{
 }
 @media (max-width:345px){
     footer{
-        bottom: -770%;
+        bottom: -970%;
 
     }
 
@@ -882,7 +901,7 @@ footer span a:hover{
     }
     footer{
         width: 170%;
-        bottom: -800%;
+        bottom: -1030%;
         left: 0%;
         text-align: center;
 
