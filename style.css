@@ -568,18 +568,6 @@ footer span a:hover{
     text-decoration: underline;
 }
 
-
-@media (max-width: 1230px){
-   
-}
-
-
-@media (max-width: 1200px){
-
-
-}
-
-
 @media (max-width: 1104px){
     body{
         padding: 1%;
@@ -600,7 +588,7 @@ footer span a:hover{
     }
     
     form input{
-        visibility:collapse;
+        visibility: collapse;
     }
 
     .text{
